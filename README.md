@@ -5,14 +5,16 @@ The Brewserver is only the Server for collecting the Data.
 MySQL Database and Webpage must be used from https://github.com/avollkopf/iSpindel-TCP-Server
 
 This is a Visual Studio Community Project. On the maschine must be installed:
-
+```
 Yaml-cpp
 Curl
 Mariadb-connector-c
+```
 
 Create config file config.yaml in /etc/conf.d/brewserver/
 
 Add the following lines and fill in the needed parts
+
 ```
 #database info
 ---
