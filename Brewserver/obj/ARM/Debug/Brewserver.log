@@ -1,0 +1,11 @@
+﻿  Quellen werden überprüft.
+  Quellen werden remote nach "192.168.178.34" kopiert.
+  Die Architektur wird überprüft.
+  Die Architektur wird überprüft.
+  Remotebuild wird gestartet.
+  Quellen werden kompiliert:
+  main.cpp
+C:\Users\JackFrost\source\repos\Brewserver\Brewserver\yaml-cpp\yaml.h(10,10): error : yaml-cpp/parser.h: No such file or directory
+C:\Users\JackFrost\source\repos\Brewserver\Brewserver\yaml-cpp\yaml.h(10,10): error :  #include "yaml-cpp/parser.h"
+C:\Users\JackFrost\source\repos\Brewserver\Brewserver\yaml-cpp\yaml.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~
+C:\Users\JackFrost\source\repos\Brewserver\Brewserver\yaml-cpp\yaml.h(10,10): error : compilation terminated.

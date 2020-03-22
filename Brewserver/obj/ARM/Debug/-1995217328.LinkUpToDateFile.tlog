@@ -1,0 +1,1 @@
+g++ -o "/root/projects/Brewserver/bin/ARM/Debug/Brewserver.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -lmariadb /root/projects/Brewserver/obj/ARM/Debug/main.o
