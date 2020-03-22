@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="rapidjson\allocators.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\cursorstreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\document.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodedstream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodings.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filereadstream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filewritestream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\fwd.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\istreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorybuffer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorystream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\ostreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\pointer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\prettywriter.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\rapidjson.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\reader.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\schema.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stringbuffer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\writer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\biginteger.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\clzll.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\diyfp.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\dtoa.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\ieee754.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\itoa.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\meta.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\pow10.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\regex.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\stack.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strfunc.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strtod.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\swap.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\en.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\error.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\stdint.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\anchor.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\binary.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\dll.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\emitfromevents.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\emitter.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\emitterdef.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\emittermanip.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\emitterstyle.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\eventhandler.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\exceptions.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\mark.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\noexcept.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\null.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\ostream_wrapper.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\parser.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\stlemitter.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\traits.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+    <ClInclude Include="yaml-cpp\yaml.h">
+      <Filter>yaml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="rapidjson">
+      <UniqueIdentifier>{761ab3f5-1677-4062-bbd1-64930efe24d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yaml">
+      <UniqueIdentifier>{5ad906c3-0c0c-4992-b9f5-1ff1c46ccd89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
