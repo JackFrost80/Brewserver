@@ -13,8 +13,8 @@ Mariadb-connector-c
 Create config file config.yaml in /etc/conf.d/brewserver/
 
 Add the following lines and fill in the needed parts
-
-`#database info
+```
+#database info
 ---
 dbuser: 
 dbpasswd: 
@@ -28,8 +28,8 @@ mysql_enable: 1
 #Ubidots
 ubidots_enable_iSpindle: 1
 ubidots_enable_eManometer: 0
-ubidots_token: `
-
+ubidots_token: 
+```
 
 At the momment must the server run in a screen.
 
